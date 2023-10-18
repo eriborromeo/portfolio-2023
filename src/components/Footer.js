@@ -3,15 +3,18 @@ import '../styles/styles.css'
 
 
 const Footer = () => {
+    const year = new Date().getFullYear();
 
     return(
         <>
-            <Footer>
-
-
-            </Footer>
+            <div className="footer">
+               {`Erica Borromeo © ${year}`}
+            </div>
         
         </>
 
     )
 }
+
+
+export default Footer;

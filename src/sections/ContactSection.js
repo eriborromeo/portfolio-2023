@@ -2,8 +2,7 @@
 import '../styles/styles.css'
 
 
-const ServiceCard = () => {
-    const year = new Date().getFullYear();
+const ContactSection = () => {
 
     return(
         <>
@@ -17,4 +16,4 @@ const ServiceCard = () => {
 }
 
 
-export default ServiceCard;
+export default ContactSection;
